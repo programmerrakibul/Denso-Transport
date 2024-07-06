@@ -1,0 +1,82 @@
+/* Common css */
+body {
+    color: #fff;
+    background: #101010;
+    font-family: 'Poppins', 'Lato', 'Helvetica';
+    margin: 0px;
+}
+
+
+/*  Form css */
+form#denso_form{
+  width: 309px;
+  clear: both;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background: #e7d81f;
+  border-radius: 7px;
+}
+
+form#denso_form h3 {
+  text-align: center;
+  font-size: 34px;
+  font-family: arial;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+form#denso_form input{
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  background: #edefe5;
+  box-shadow: 0px 0px 11px -1px #5248488c;
+}
+
+form#denso_form input[type="submit"] {
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+form#denso_form input[type="submit"]:hover {
+  background: #ddd;
+}
+
+form#denso_form span {
+    color: #363332bd;
+    text-align: center;
+    display: block;
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: arial;
+}
+
+form#denso_form span a {
+  color: #eb5d5d;
+  text-decoration: none;
+  transition: .3s;
+}
+
+form#denso_form span a:hover {
+  color: #565bebbd;
+}
+
+/* Registration Form css */
+.registration_form .first_name{
+  display: inline-block !important;
+  width: 37% !important;
+  margin-right: 15px !important;
+}
+
+.registration_form .last_name{
+  display: inline-block !important;
+  width: 37% !important;
+}

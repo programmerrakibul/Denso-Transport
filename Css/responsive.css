@@ -1,0 +1,242 @@
+@media all and (max-width: 1030px){
+  .inner_about{
+    background: #F7F6F6;
+ }
+
+  .about_section_txt{
+    flex-basis: 60%;
+    padding: 15px 25px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .about_section_txt p {
+    text-align: justify;
+ }
+
+ .about_section_img{
+    display: none;
+ }
+}
+
+@media all and (max-width: 796px){
+  .testimonial_details {
+  width: 100%;
+  padding: 20px 0px;
+  flex-direction: column;
+}
+
+.testimonial_items {
+  flex-basis: 40%;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.testimonial_items:last-child {
+  margin-bottom: 0;
+}
+}
+
+@media all and (max-width: 710px){
+  .inner_top_header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  grid-gap: 5px;
+ }
+
+ #three_line_div{
+  display: block;
+  transition: .3s;
+ }
+
+ @keyframes navbar_animation {
+  from{
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  to{
+    opacity: 1;
+    transform: scaleY(1);
+  }
+ }
+
+ .inner_down_header{
+  transition: .5s;
+  display: none;
+  animation-name: navbar_animation;
+  animation-duration: .4s;
+  transform-origin: top;
+ }
+
+ .navbar_show{
+    display: block;
+ }
+
+ .inner_down_header ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+ }
+
+ .service_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+ .inner_top_footer{
+  width: 100%;
+  display: inline-block;
+ }
+
+ .top_footer_information{
+   width: 77%;
+   margin: 0 auto;
+ }
+
+ .inner_information_footer {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+ .left_information_footer {
+    max-width: 77%;
+ }
+
+.left_information_logo {
+  margin: 0 auto;
+}
+
+.left_information_txt{
+  width: 100%;
+  text-align: justify;
+}
+
+.left_information_social{
+  width: 100%;
+  text-align: center;
+}
+
+.mid_information_footer {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.right_information_div h5 {
+    font-size: 15px;
+}
+
+.right_information_div p{
+  font-size: 14px;
+}
+}
+
+@media all and (max-width: 435px){
+p{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner_top_header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: start;
+  grid-gap: 5px;
+}
+
+form.top_header_search{
+  width: 175px;
+}
+
+.inner_down_header ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+}
+
+/* Transportation  css */
+.transportation_form {
+  margin-top: 25px;
+}
+
+.inner_welcome, .service_title  {
+    padding: 10px;
+    width: 90%;
+}
+
+.inner_welcome h1::after{
+    top: 74%;
+    left: 38%;
+}
+
+.inner_welcome p{
+    font-size: 14px;
+    width: 96%;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+
+.service_title h1::after{
+    top: 65%;
+    left: 37%;
+}
+
+.service_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.about_section_txt{
+  flex-basis: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.about_section_txt p {
+  text-align: justify;
+}
+
+.about_section_img{
+  flex-basis: 100%;
+}
+
+.news_header h2::after {
+  top: 75%;
+  left: 36%;
+}
+
+.news_event {
+  flex-direction: column;
+  align-items: center;
+}
+
+.event_items{
+  width: 96%;
+  flex-basis: 0;
+  margin-bottom: 15px;
+  background-color: #ddd;
+}
+
+.call_back_form input {
+  width: 94%;
+}
+
+ .left_information_footer {
+    max-width: 90%;
+ }
+}
+
+@media all and (max-width: 395px){
+.news_header h2::after {
+  top: 45%;
+  left: 51%;
+}
+}
